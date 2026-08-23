@@ -39,8 +39,7 @@ export default function Contact() {
           Let's Build <span style={{ color: 'var(--teal)' }}>Something</span>
         </h2>
         <p style={{ color: 'var(--body)', marginBottom: '2.5rem', lineHeight: 1.85, fontSize: '.98rem' }}>
-          Got an Idea?<br></br> Let's turn it into something real. <br></br>
-        Whether it's a project, collaboration, opportunity, or just a conversation about technology and engineering I'd love to hear from you.
+          Got an Idea?<br></br> Let's turn it into something real. <br></br> 
         </p>
 
           {/* console prompt */}
@@ -48,7 +47,7 @@ export default function Contact() {
             <CopyLine icon="✉" label="Email" value={ME.email} color="var(--teal)" />
             <CopyLine icon="📞" label="Phone" value={ME.phone} color="var(--orange)" />
             <CopyLine icon="🔗" label="LinkedIn" value="linkedin.com/in/vishwanath-diggavi" href={ME.linkedin} color="var(--teal)" />
-            <CopyLine icon="⌥" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--body)" />
+            <CopyLine icon="🐙" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--body)" />
             <CopyLine icon="📍" label="Location" value={ME.location} color="var(--gold)" />
           </div>
         {/* CTA buttons */}
