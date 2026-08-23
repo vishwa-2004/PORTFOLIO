@@ -97,8 +97,7 @@ export const PROJECT = {
 }
 
 export const SKILLS = [
-  {
-    title: 'CAD & Mechanical Design',
+  { title: 'CAD & Mechanical Design',
     icon: '🔧',
     size: 'large',
     color: '#00e5b8',
@@ -109,8 +108,7 @@ export const SKILLS = [
       { name: 'GD&T', note: 'Geometric Dimensioning & Tolerancing' },
     ],
   },
-  {
-    title: 'Robotics & Automation',
+  { title: 'Robotics & Automation',
     icon: '🤖',
     size: 'large',
     color: '#ff6b35',
@@ -121,8 +119,7 @@ export const SKILLS = [
       { name: 'CIM', note: 'Computer Integrated Manufacturing — NPTEL certified' },
     ],
   },
-  {
-    title: 'Programming & Tools',
+  { title: 'Programming & Tools',
     icon: '💻',
     size: 'medium',
     color: '#a78bfa',
@@ -133,8 +130,7 @@ export const SKILLS = [
       { name: 'Git', note: 'Version control' },
     ],
   },
-  {
-    title: 'Leadership & Professional',
+  { title: 'Leadership & Professional',
     icon: '🎯',
     size: 'medium',
     color: '#f0a500',
@@ -169,7 +165,7 @@ export const TIMELINE = [
     proofLabel: 'View Leadership Post',
   },
   {
-    year: 'April 2026 – 2027',
+    year: 'April 2026 – Present',
     role: 'President',
     org: 'IIF BEC Student Chapter',
     type: 'leadership',

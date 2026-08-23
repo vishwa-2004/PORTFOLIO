@@ -29,12 +29,6 @@ function SkillCard({ skill }) {
         </div>
       </div>
 
-      {/* proficiency bar */}
-      <SkillBar pct={skill.pct} color={skill.color} />
-      <div style={{ display: 'flex', justifyContent: 'space-between', fontFamily: "'JetBrains Mono',monospace", fontSize: '.6rem', color: 'var(--body)', marginTop: '.3rem', marginBottom: '1.2rem' }}>
-        <span>proficiency</span><span style={{ color: skill.color }}>{skill.pct}%</span>
-      </div>
-
       {/* items */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '.6rem' }}>
         {skill.items.map(item => (
