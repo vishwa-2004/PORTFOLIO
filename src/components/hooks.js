@@ -62,7 +62,7 @@ export function useSkillBar(pct) {
   useEffect(() => {
     const obs = new IntersectionObserver(([e]) => {
       if (e.isIntersecting) { setTimeout(() => setW(pct), 200); obs.disconnect() }
-    }, { threshold: .4 })
+    }, { threshold: 0, rootMargin: '0px 0px -50px 0px' })
     if (ref.current) obs.observe(ref.current)
     return () => obs.disconnect()
   }, [pct])

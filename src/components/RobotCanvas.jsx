@@ -118,14 +118,6 @@ export default function RobotCanvas() {
       ctx.fillStyle = grad; ctx.fillRect(0, 360, c.width, 80)
       ctx.restore()
 
-      // Label: UNIT-01
-      ctx.save()
-      ctx.font = '500 10px "JetBrains Mono"'
-      ctx.fillStyle = 'rgba(0,229,184,0.4)'
-      ctx.textAlign = 'center'
-      ctx.fillText('UNIT-01 // AUTONOMOUS LOAD CARRIER', 210, 460)
-      ctx.restore()
-
       raf = requestAnimationFrame(draw)
     }
     draw()

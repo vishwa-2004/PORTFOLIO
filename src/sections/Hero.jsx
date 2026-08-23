@@ -68,7 +68,6 @@ export default function Hero() {
             { val: 7.08, label: 'CGPA / 10', float: true, color: '#00e5b8' },
             { val: 4,    label: 'Hackathons', color: '#ff6b35' },
             { val: 3,    label: 'Certifications', color: '#f0a500' },
-            { val: 100,  label: 'Students Mentored', color: '#a78bfa' },
           ].map((s, i, arr) => (
             <div key={s.label} style={{ flex: 1, minWidth: 90, paddingRight: '1.5rem', borderRight: i < arr.length - 1 ? '1px solid var(--border)' : 'none', marginRight: i < arr.length - 1 ? '1.5rem' : 0 }}>
               <StatPill target={s.val} label={s.label} isFloat={s.float} color={s.color} />
