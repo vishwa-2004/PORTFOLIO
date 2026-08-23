@@ -26,7 +26,6 @@ export default function Timeline() {
   return (
     <section id="leadership" className="alt">
       <div ref={secRef} className="reveal">
-        <div className="sec-pre">leadership.circuit</div>
         <h2 className="sec-title">Leadership <span style={{color:'var(--teal)'}}>& Roles</span></h2>
       </div>
       <div className="tl-wrap" ref={wrapRef}>
