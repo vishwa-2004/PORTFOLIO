@@ -6,7 +6,6 @@ export default function Education() {
   return (
     <section id="education">
       <div ref={ref} className="reveal">
-        <div className="sec-pre">academic_background</div>
         <h2 className="sec-title">Education <span style={{ color: 'var(--teal)' }}>Matrix</span></h2>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '.9rem' }}>
           {EDUCATION.map((e, i) => (
