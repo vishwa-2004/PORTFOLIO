@@ -45,15 +45,10 @@ export default function Contact() {
 
           {/* console prompt */}
           <div className="console-body">
-            <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '.72rem', color: 'var(--teal)', marginBottom: '1.2rem', opacity: .6 }}>
-              $ contact --all --connect<br/>
-              <span style={{ color: 'var(--body)' }}>// Displaying all contact channels...</span>
-            </div>
-
             <CopyLine icon="✉" label="Email" value={ME.email} color="var(--teal)" />
             <CopyLine icon="📞" label="Phone" value={ME.phone} color="var(--orange)" />
             <CopyLine icon="🔗" label="LinkedIn" value="linkedin.com/in/vishwanath-diggavi" href={ME.linkedin} color="var(--teal)" />
-            <CopyLine icon="🌐" label="Portfolio" value="vishwa-2004.github.io/PORTFOLIO_v4" href={ME.portfolio} color="var(--purple)" />
+            <CopyLine icon="🌐" label="Portfolio" value="vishwa-2004.github.io/PORTFOLIO" href={ME.portfolio} color="var(--purple)" />
             <CopyLine icon="⌥" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--body)" />
             <CopyLine icon="📍" label="Location" value={ME.location} color="var(--gold)" />
           </div>
