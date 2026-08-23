@@ -23,7 +23,7 @@ export default function Nav() {
   return (
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <a href="#about" className="nav-logo">
-        VD<em>.exe</em>
+        VD<em> </em>
       </a>
       <ul className="nav-links">
         {links.map(l => <li key={l.href}><a href={l.href}>{l.label}</a></li>)}

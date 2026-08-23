@@ -43,18 +43,6 @@ export default function Contact() {
           All links below are live — click to connect instantly.
         </p>
 
-        {/* Console */}
-        <div className="console" style={{ textAlign: 'left' }}>
-          {/* console title bar */}
-          <div className="console-bar">
-            <div className="console-dot" style={{ background: '#ff5f56' }} />
-            <div className="console-dot" style={{ background: '#ffbd2e' }} />
-            <div className="console-dot" style={{ background: '#27c93f' }} />
-            <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '.68rem', color: 'var(--body)', marginLeft: '.5rem' }}>
-              vishwanath_diggavi — contact.console
-            </span>
-          </div>
-
           {/* console prompt */}
           <div className="console-body">
             <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '.72rem', color: 'var(--teal)', marginBottom: '1.2rem', opacity: .6 }}>
@@ -69,9 +57,6 @@ export default function Contact() {
             <CopyLine icon="⌥" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--body)" />
             <CopyLine icon="📍" label="Location" value={ME.location} color="var(--gold)" />
 
-            <div style={{ marginTop: '1.5rem', fontFamily: "'JetBrains Mono',monospace", fontSize: '.7rem', color: 'rgba(0,229,184,0.35)' }}>
-              $ _ <span className="cursor-blink">|</span>
-            </div>
           </div>
         </div>
 
