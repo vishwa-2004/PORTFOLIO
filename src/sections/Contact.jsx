@@ -56,10 +56,7 @@ export default function Contact() {
             <CopyLine icon="🌐" label="Portfolio" value="vishwa-2004.github.io/PORTFOLIO_v4" href={ME.portfolio} color="var(--purple)" />
             <CopyLine icon="⌥" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--body)" />
             <CopyLine icon="📍" label="Location" value={ME.location} color="var(--gold)" />
-
           </div>
-        </div>
-
         {/* CTA buttons */}
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem', flexWrap: 'wrap' }}>
           <a href={`mailto:${ME.email}`} className="cta-primary">Send Email Directly</a>
