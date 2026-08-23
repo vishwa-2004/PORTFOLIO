@@ -47,7 +47,7 @@ export default function Contact() {
             <CopyLine icon="✉️" label="Email" value={ME.email} color="var(--teal)" />
             <CopyLine icon="📞" label="Phone" value={ME.phone} color="var(--orange)" />
             <CopyLine icon="🔗" label="LinkedIn" value="linkedin.com/in/vishwanath-diggavi" href={ME.linkedin} color="var(--teal)" />
-            <CopyLine icon="🐙" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--teal)" />
+            <CopyLine icon="🐙" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--orange)" />
             <CopyLine icon="📍" label="Location" value={ME.location} color="var(--gold)" />
           </div>
         {/* CTA buttons */}
