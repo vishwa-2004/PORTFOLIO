@@ -83,7 +83,6 @@ export default function ProjectSection() {
   return (
     <section id="project" className="alt">
       <div ref={ref} className="reveal">
-        <div className="sec-pre">flagship_project.exe</div>
         <h2 className="sec-title">Human-Following <span>Robot</span></h2>
 
         {/* Header card */}
