@@ -35,7 +35,6 @@ export default function Contact() {
   return (
     <section id="contact" className="alt">
       <div ref={ref} className="reveal" style={{ maxWidth: 740, margin: '0 auto', textAlign: 'center' }}>
-        <div className="sec-pre" style={{ justifyContent: 'center' }}>connection.init()</div>
         <h2 className="sec-title">
           Let's Build <span style={{ color: 'var(--teal)' }}>Something</span>
         </h2>
