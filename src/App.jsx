@@ -65,7 +65,8 @@ export default function App() {
       }}>
         <span style={{ color: 'var(--teal)' }}>vishwanath_diggavi</span>
         &nbsp;·&nbsp; B.E. Mechanical Engineering · BEC Bagalkot
-        &nbsp;·&nbsp; IEEE NKSS SAC Member
+        &nbsp;·&nbsp; BEC-IEEE
+        &nbsp;·&nbsp; IEEE NKSS SAC
       </footer>
     </>
   )
