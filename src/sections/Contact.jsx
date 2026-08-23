@@ -39,8 +39,8 @@ export default function Contact() {
           Let's Build <span style={{ color: 'var(--teal)' }}>Something</span>
         </h2>
         <p style={{ color: 'var(--body)', marginBottom: '2.5rem', lineHeight: 1.85, fontSize: '.98rem' }}>
-          I am always open to new opportunities, collaborations, and exciting projects. Whether you have a question, a proposal, <br></br>
-          or just want to say hello, feel free to reach out. Let's connect and explore how we can create something amazing together!
+          Got an Idea?<br></br> Let's turn it into something real. <br></br>
+        Whether it's a project, collaboration, opportunity, or just a conversation about technology and engineering I'd love to hear from you.
         </p>
 
           {/* console prompt */}

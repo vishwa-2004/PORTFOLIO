@@ -98,7 +98,6 @@ export const PROJECT = {
 
 export const SKILLS = [
   {
-    id: 'cad',
     title: 'CAD & Mechanical Design',
     icon: '🔧',
     size: 'large',
@@ -111,7 +110,6 @@ export const SKILLS = [
     ],
   },
   {
-    id: 'robotics',
     title: 'Robotics & Automation',
     icon: '🤖',
     size: 'large',
@@ -124,20 +122,18 @@ export const SKILLS = [
     ],
   },
   {
-    id: 'programming',
     title: 'Programming & Tools',
     icon: '💻',
     size: 'medium',
     color: '#a78bfa',
     items: [
-      { name: 'C', note: 'Embedded control logic' },
-      { name: 'Python', note: 'Automation scripting' },
-      { name: 'HTML', note: 'Web documentation' },
+      { name: 'C', note: 'Basic programming concepts' },
+      { name: 'Python', note: 'Basic scripting and automation' },
+      { name: 'HTML', note: 'Web development fundamentals' },
       { name: 'Git', note: 'Version control' },
     ],
   },
   {
-    id: 'leadership',
     title: 'Leadership & Professional',
     icon: '🎯',
     size: 'medium',
