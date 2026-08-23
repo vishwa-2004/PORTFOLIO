@@ -66,7 +66,6 @@ export default function Skills() {
   return (
     <section id="skills">
       <div ref={ref} className="reveal">
-        <div className="sec-pre">capabilities.scan()</div>
         <h2 className="sec-title">Technical <span>Skills</span></h2>
         <style>{`@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}`}</style>
 
