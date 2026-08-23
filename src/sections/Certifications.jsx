@@ -6,7 +6,6 @@ export default function Certifications() {
   return (
     <section id="certifications">
       <div ref={ref} className="reveal">
-        <div className="sec-pre">credentials.verify()</div>
         <h2 className="sec-title">Certifications <span style={{ color: 'var(--teal)' }}>& Training</span></h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.2rem' }}>
