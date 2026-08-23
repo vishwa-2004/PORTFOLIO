@@ -6,7 +6,6 @@ export default function Hackathons() {
   return (
     <section id="hackathons" className="alt">
       <div ref={ref} className="reveal">
-        <div className="sec-pre">competitions.log</div>
         <h2 className="sec-title">Hackathon <span style={{ color: 'var(--teal)' }}>Records</span></h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.2rem' }}>
