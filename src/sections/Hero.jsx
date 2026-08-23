@@ -24,7 +24,7 @@ export default function Hero() {
         {/* availability tag */}
         <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '.74rem', color: 'var(--teal)', letterSpacing: '.14em', textTransform: 'uppercase', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '.8rem' }}>
           <span className="ping" />
-          Available for Internships · Bagalkot, Karnataka, 587101
+Open to New Opportunities · Bagalkot, Karnataka, 587101
         </div>
 
         {/* NAME */}

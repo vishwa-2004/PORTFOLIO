@@ -39,8 +39,8 @@ export default function Contact() {
           Let's Build <span style={{ color: 'var(--teal)' }}>Something</span>
         </h2>
         <p style={{ color: 'var(--body)', marginBottom: '2.5rem', lineHeight: 1.85, fontSize: '.98rem' }}>
-          Open to internships in core mechanical engineering, EV, robotics, and automation.<br/>
-          All links below are live — click to connect instantly.
+          I am always open to new opportunities, collaborations, and exciting projects. Whether you have a question, a proposal, <br></br>
+          or just want to say hello, feel free to reach out. Let's connect and explore how we can create something amazing together!
         </p>
 
           {/* console prompt */}
@@ -48,7 +48,6 @@ export default function Contact() {
             <CopyLine icon="✉" label="Email" value={ME.email} color="var(--teal)" />
             <CopyLine icon="📞" label="Phone" value={ME.phone} color="var(--orange)" />
             <CopyLine icon="🔗" label="LinkedIn" value="linkedin.com/in/vishwanath-diggavi" href={ME.linkedin} color="var(--teal)" />
-            <CopyLine icon="🌐" label="Portfolio" value="vishwa-2004.github.io/PORTFOLIO" href={ME.portfolio} color="var(--purple)" />
             <CopyLine icon="⌥" label="GitHub" value="github.com/vishwa-2004" href={ME.github} color="var(--body)" />
             <CopyLine icon="📍" label="Location" value={ME.location} color="var(--gold)" />
           </div>
