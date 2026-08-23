@@ -39,13 +39,6 @@ export default function Certifications() {
                   🏅 {cert.proofLabel}
                 </a>
               </div>
-
-              {/* highlight glow for top certs */}
-              {cert.highlight && (
-                <div style={{ marginTop: '.8rem', fontFamily: "'JetBrains Mono',monospace", fontSize: '.65rem', color: 'var(--teal)', opacity: .5, letterSpacing: '.06em' }}>
-                  // verified · click to view certificate
-                </div>
-              )}
             </div>
           ))}
         </div>

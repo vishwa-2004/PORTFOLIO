@@ -57,9 +57,10 @@ Open to New Opportunities · Bagalkot, Karnataka, 587101
 
         {/* CTAs */}
         <div style={{ display: 'flex', gap: '.8rem', flexWrap: 'wrap', marginBottom: '3.5rem' }}>
-          <a href="#project" className="cta-primary">Explore Robot Project</a>
+          <a href="#project" className="cta-primary">Explore Project</a>
           <a href={ME.linkedin} target="_blank" rel="noreferrer" className="cta-orange">LinkedIn Profile</a>
-          <a href="#contact" className="cta-outline">Contact </a>
+<a href="#project" className="cta-primary">Explore Project</a>
+<a href={ME.linkedin} target="_blank" rel="noreferrer" className="cta-orange">LinkedIn Profile</a>
         </div>
 
         {/* STATS */}

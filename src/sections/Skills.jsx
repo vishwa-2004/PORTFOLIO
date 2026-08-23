@@ -24,7 +24,6 @@ function SkillCard({ skill }) {
       <div style={{ display: 'flex', alignItems: 'center', gap: '.8rem', marginBottom: '1rem' }}>
         <span style={{ fontSize: '1.4rem' }}>{skill.icon}</span>
         <div>
-          <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '.62rem', color: skill.color, textTransform: 'uppercase', letterSpacing: '.12em', opacity: .7 }}>// {skill.id}</div>
           <div style={{ fontFamily: "'Orbitron',monospace", fontSize: '.88rem', fontWeight: 700, color: 'var(--white)' }}>{skill.title}</div>
         </div>
       </div>
