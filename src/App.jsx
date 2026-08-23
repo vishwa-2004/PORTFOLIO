@@ -63,10 +63,9 @@ export default function App() {
         padding: '2rem 2rem', borderTop: '1px solid rgba(0,229,184,0.1)',
         fontFamily: "'JetBrains Mono',monospace", fontSize: '.7rem', color: 'var(--body)',
       }}>
-        <span style={{ color: 'var(--teal)' }}>vishwanath_diggavi</span>.exe
+        <span style={{ color: 'var(--teal)' }}>vishwanath_diggavi</span>
         &nbsp;·&nbsp; B.E. Mechanical Engineering · BEC Bagalkot
         &nbsp;·&nbsp; IEEE NKSS SAC Member
-        &nbsp;·&nbsp; <span style={{ color: 'var(--orange)' }}>2025</span>
       </footer>
     </>
   )
