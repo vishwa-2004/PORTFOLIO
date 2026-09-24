@@ -11,7 +11,7 @@ export const ME = {
   github: 'https://github.com/vishwa-2004',
   portfolio: 'https://vishwa-2004.github.io/PORTFOLIO_v4/',
   location: 'Bagalkot, Karnataka, India',
-  cgpa: '7.14',
+  cgpa: '7.08',
   gradYear: '2027',
   college: 'Basaveshwar Engineering College (Autonomous)',
 }
