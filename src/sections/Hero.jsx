@@ -24,7 +24,7 @@ export default function Hero() {
         {/* availability tag */}
         <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '.74rem', color: 'var(--teal)', letterSpacing: '.14em', textTransform: 'uppercase', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '.8rem' }}>
           <span className="ping" />
-          Available for Internships · Bagalkot, Karnataka
+          Available for Internships · Bagalkot, Karnataka, 587101
         </div>
 
         {/* NAME */}
@@ -59,13 +59,13 @@ export default function Hero() {
         <div style={{ display: 'flex', gap: '.8rem', flexWrap: 'wrap', marginBottom: '3.5rem' }}>
           <a href="#project" className="cta-primary">Explore Robot Project</a>
           <a href={ME.linkedin} target="_blank" rel="noreferrer" className="cta-orange">LinkedIn Profile</a>
-          <a href="#contact" className="cta-outline">Contact Engineer</a>
+          <a href="#contact" className="cta-outline">Contact </a>
         </div>
 
         {/* STATS */}
         <div style={{ display: 'flex', gap: 0, borderTop: '1px solid var(--border)', paddingTop: '2.5rem', flexWrap: 'wrap' }}>
           {[
-            { val: 7.14, label: 'CGPA / 10', float: true, color: '#00e5b8' },
+            { val: 7.08, label: 'CGPA / 10', float: true, color: '#00e5b8' },
             { val: 4,    label: 'Hackathons', color: '#ff6b35' },
             { val: 3,    label: 'Certifications', color: '#f0a500' },
             { val: 100,  label: 'Students Mentored', color: '#a78bfa' },
