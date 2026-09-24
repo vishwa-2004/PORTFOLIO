@@ -6,7 +6,7 @@ export const ME = {
   subtitle: 'IEEE NKSS SAC Member  ·  Robotics & Automation  ·  CAD Designer',
   tagline: 'Engineering the Intersection of CAD, Robotics & Automation.',
   email: 'diggavivishwanathd@gmail.com',
-  phone: '+91-9686937392',
+  phone: '+91-9686937632',
   linkedin: 'https://linkedin.com/in/vishwanath-diggavi',
   github: 'https://github.com/vishwa-2004',
   portfolio: 'https://vishwa-2004.github.io/PORTFOLIO_v4/',
@@ -17,7 +17,7 @@ export const ME = {
 }
 
 export const PILLS = [
-  { label: '7.14 CGPA', color: '#00e5b8' },
+  { label: '7.08 CGPA', color: '#00e5b8' },
   { label: 'IEEE NKSS SAC Member', color: '#ff6b35' },
   { label: "Anveshana '24 Awardee", color: '#f0a500' },
 ]
@@ -28,7 +28,7 @@ export const EDUCATION = [
     institute: 'Basaveshwar Engineering College (Autonomous)',
     location: 'Bagalkot, Karnataka',
     period: '2023 – 2027',
-    score: '7.14 / 10',
+    score: '7.08 / 10',
     scoreLabel: 'CGPA',
     courses: ['Automation', 'Mechatronics', 'Robotics', 'CAD/CAM', 'Manufacturing Processes', 'Fluid Mechanics', 'Computer Integrated Manufacturing'],
   },
